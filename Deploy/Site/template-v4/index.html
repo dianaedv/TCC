@@ -193,9 +193,10 @@ https://templatemo.com/tm-560-astro-motion
               <div class="circle intro-circle-4"></div>
               <div class="tm-bg-dark content-pad">
                 <div class="btn-group button">
-                  <button id="torax" onclick="displayToraxAval()">Tórax</button>
+                  <button id="torax" onclick="displayToraxAval()">Tórax
+                  </button>
                   <div class="disabled">
-                    <button>Abdomen</button>
+                    <button id="Abdomen">Abdomen</button>
                     <button id="coluna">Coluna</button>
                     <button id="face">Face</button>
                     <button id="face">Cránio</button>
@@ -205,13 +206,13 @@ https://templatemo.com/tm-560-astro-motion
                     <button id="n_i">Não Identificado</button>
                   </div>
                 </div>
-                <p class=" description tm-bg-dark mb-4" id="ptorax">
+                <p class="description tm-bg-dark mb-4" id="ptorax">
                   Total de doenças a detectar: 14 <br />        
                   Nome: 1, Atelectasis; 2, Cardiomegaly; 3, Effusion; 4, Infiltration; 5, Mass; 6, Nodule; 7, Pneumonia; 8,
                   Pneumothorax; 9, Consolidation; 10, Edema; 11, Emphysema; 12, Fibrosis; 13,
                   Pleural_Thickening; 14 Hernia
                 </p>
-                <div class="container">
+                <div class="container" id="container">
                   <figure class="image-container">
                       <img id="chosen-image">
                       <figcaption id="file-name"></figcaption>
@@ -231,7 +232,7 @@ https://templatemo.com/tm-560-astro-motion
                 </div>
                 </div>
                 
-                <p class="result tm-bg-dark mb-4" id="rtorax">       
+                <p class="description tm-bg-dark mb-4" id="rtorax">       
                 </p>
               </div>
             </div>
