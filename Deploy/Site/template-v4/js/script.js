@@ -19,9 +19,12 @@ toraxButton.addEventListener("click", function() {
     }
 });
 
+
 function displayToraxAval() {
     var p = document.getElementById("ptorax");
-    p.style.display = "block";  	 
+    p.style.display = "block";
+    var c = document.getElementById("container");
+    c.style.display = "block";  	  	 
   }
 
 function displayToraxResult() {
